@@ -11,6 +11,8 @@
 #import "ChangeViewController.h"
 #import "FMDB.h"
 
+#import "TestProtocol.h"
+
 @interface ViewController ()<UITableViewDataSource,UITableViewDelegate,UISearchResultsUpdating>
 
 @property (nonatomic,strong) NSMutableArray *nameAry;
@@ -35,6 +37,10 @@ static NSString * const reuseId = @"cellid";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    TestProtocol *test = [[TestProtocol alloc]init];
+    [test testProtocol];
+    
     
     self.nameAry = [NSMutableArray array];
     self.timeAry = [NSMutableArray array];

@@ -22,6 +22,7 @@
 		50B2173E1C5A02D900E54000 /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B2173C1C5A02D900E54000 /* AddViewController.m */; };
 		50B2173F1C5A02D900E54000 /* AddViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50B2173D1C5A02D900E54000 /* AddViewController.xib */; };
 		50B217421C5A194D00E54000 /* ChangeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 50B217411C5A194D00E54000 /* ChangeViewController.m */; };
+		5192D45B1CAA8E54007654B8 /* TestProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 5192D45A1CAA8E54007654B8 /* TestProtocol.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,8 @@
 		50B2173D1C5A02D900E54000 /* AddViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddViewController.xib; sourceTree = "<group>"; };
 		50B217401C5A194D00E54000 /* ChangeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeViewController.h; sourceTree = "<group>"; };
 		50B217411C5A194D00E54000 /* ChangeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeViewController.m; sourceTree = "<group>"; };
+		5192D4591CAA8E54007654B8 /* TestProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestProtocol.h; sourceTree = "<group>"; };
+		5192D45A1CAA8E54007654B8 /* TestProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestProtocol.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,8 @@
 				50B217151C5A023100E54000 /* AppDelegate.m */,
 				50B217171C5A023100E54000 /* ViewController.h */,
 				50B217181C5A023100E54000 /* ViewController.m */,
+				5192D4591CAA8E54007654B8 /* TestProtocol.h */,
+				5192D45A1CAA8E54007654B8 /* TestProtocol.m */,
 				50B217401C5A194D00E54000 /* ChangeViewController.h */,
 				50B217411C5A194D00E54000 /* ChangeViewController.m */,
 				50B2173B1C5A02D900E54000 /* AddViewController.h */,
@@ -203,6 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5192D45B1CAA8E54007654B8 /* TestProtocol.m in Sources */,
 				50B217421C5A194D00E54000 /* ChangeViewController.m in Sources */,
 				50B217191C5A023100E54000 /* ViewController.m in Sources */,
 				50B217161C5A023100E54000 /* AppDelegate.m in Sources */,
